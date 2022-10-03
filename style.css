@@ -1,0 +1,144 @@
+body {
+  background-color: black;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  padding-right: 40px;
+  padding-left: 40px;
+  color: #FFFFFF;
+}
+
+.botton-nav{
+  text-align: right;
+}
+.content{
+  text-align: center;
+}
+
+.botton-nav a {
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.foto{
+  margin-bottom: 75px;
+  margin-top: 100px;
+}
+
+h3{
+  color: #ADADAD;
+  font-size: 18px;
+}
+
+h1{
+  color: #FFFFFF;
+  font-size: 40px;
+  position: relative;
+}
+
+.redes{
+  display: flex;
+  gap: 65px;
+  justify-content: center;
+}
+
+.acerca-de > p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+h2{
+  margin-top: 60px;
+}
+
+.habilities{
+  display: grid;
+  grid-template-columns: 25vw 25vw;
+  grid-template-rows: 25vw 25vw;
+  justify-content: center;
+}
+
+.center{
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+h6{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.experiencia{
+  display: flex;
+  align-content: inline;
+  justify-content: center;
+}
+
+.ejemplos{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+  gap: 25px;
+  margin: 50px;
+}
+
+.size{
+  width: 100%;
+}
+
+.habilities .center img {
+  background-color: grey;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+/* CLASES DE LISTA */
+.experiencia ul li {
+  border-bottom: 1px solid darkgrey;
+  display: flex;
+  width: 50vw;
+}
+
+.experiencia ul li:last-child {
+  border-bottom: 0px solid darkgrey;
+}
+
+.experiencia p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.periodo {
+  align-content: start;
+  margin-top: auto;
+}
+.puesto {
+  height: 68px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cargo {
+  bottom: 0;
+  margin-block-end: 0;
+  font-weight: bold;
+}
+.institucion {
+  margin-block-start: 0;
+  top: 0
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 25vw 25vw;
+  grid-template-rows: 30vw;
+  justify-content: center;
+}
+
+.contact img {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  padding: 10px;
+}
